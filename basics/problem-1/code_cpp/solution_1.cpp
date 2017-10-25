@@ -1,5 +1,5 @@
 /**
-    @file    solution_1.cpp
+    @file    sum_of_2_solution1.cpp
     @author  Altantur Bayarsaikhan (altantur)
     @purpose Sum of 2 numbers
     @version 1.0 25/10/17 
