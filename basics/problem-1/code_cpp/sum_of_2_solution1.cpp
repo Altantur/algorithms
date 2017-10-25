@@ -1,7 +1,7 @@
 /**
     @file    sum_of_2_solution1.cpp
     @author  Altantur Bayarsaikhan (altantur)
-    @purpose Sum of 2 numbers
+    @purpose Find sum of 2 integers
     @version 1.0 25/10/17 
 */
 #include <iostream>
