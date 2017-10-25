@@ -1,0 +1,7 @@
+Given integers of length L and width W. Find the inner diagonal.
+
+Integers will be on separate lines.
+
+E.G:
+2
+5

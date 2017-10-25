@@ -1,0 +1,8 @@
+Given three sides of triangle integeres A, B and C. Find area of triangle.
+
+Integers will be on separate lines.
+
+E.G:
+2
+5
+4

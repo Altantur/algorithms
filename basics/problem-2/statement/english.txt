@@ -1,0 +1,8 @@
+Given length L, width W find area and perimeter of rectangle.
+
+First line is length
+Second line is width
+
+E.G:
+2
+5

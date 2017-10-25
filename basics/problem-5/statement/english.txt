@@ -1,0 +1,6 @@
+Assume you given integer of x. Find following expression: x**2 + 2*x + 2340
+
+x will be on a line.
+
+E.G:
+2

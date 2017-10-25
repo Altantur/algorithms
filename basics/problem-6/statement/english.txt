@@ -1,0 +1,7 @@
+Given A and B integer. Assume divident is A and divisor is B. Find the quotient and remainder
+
+Integers will be on separate lines.
+
+E.G:
+5
+2
