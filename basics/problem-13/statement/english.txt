@@ -1,7 +1,12 @@
-Find sum of given integer of A and B.
+A, B, C, D given integers
+sum of number(s) that more than 0,
+count of number(s) that equal to 0,
+product of number(s) that less than 0.
 
-Integers will be on lines.
+Integers will be on separate lines.
 
 E.G:
 2
 5
+0
+-2

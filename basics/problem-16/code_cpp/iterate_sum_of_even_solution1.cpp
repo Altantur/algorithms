@@ -1,8 +1,8 @@
 /**
-    @file    sum_of_2_solution1.cpp
+    @file    iterate_sum_of_even_solution1.cpp
     @author  Altantur Bayarsaikhan (altantur)
-    @purpose Find sum of 2 integers
-    @version 1.0 25/10/17 
+    @purpose Find sum of in range (N..M)
+    @version 1.0 26/10/17 
 */
 #include <iostream>
 #include <fstream>
@@ -10,8 +10,7 @@ using namespace std;
 
 int main(){
     ifstream test_file;
-    int m = 0, n = 0;
-    long prod = 1;
+    int m = 0, n = 0, sum = 0;
 
     // Read from test files
     test_file.open ("../test/test1.txt");
@@ -19,12 +18,12 @@ int main(){
     test_file >> n;
     test_file.close();
 
-    // Calculating production of range
-    for(int i = m; i <= n; i++){
-        prod = prod * i;
+    for(int i = m; i <= n; i += 2){
+        sum += i;
     }
 
-    cout << "Product of range : " << prod << endl;
+    cout << sum << endl;
+
     return 0;
 }
 

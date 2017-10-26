@@ -1,4 +1,4 @@
-Find sum of given integer of A and B.
+Find max of given integer of A and B.
 
 Integers will be on lines.
 

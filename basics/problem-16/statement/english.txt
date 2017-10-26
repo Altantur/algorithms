@@ -1,6 +1,6 @@
-Find sum of given integer of A and B.
+Find sum of given integer range of M and N.
 
-Integers will be on lines.
+Integers will be on separate lines.
 
 E.G:
 2

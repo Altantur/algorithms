@@ -1,7 +1,8 @@
-Find sum of given integer of A and B.
+Find sum of range from M to N.
 
-Integers will be on lines.
+First line will be M
+Second line wille be N
 
 E.G:
-2
-5
+1
+100

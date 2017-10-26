@@ -1,7 +1,9 @@
-Find sum of given integer of A and B.
+Find second max of given integer of A, B, C and D.
 
-Integers will be on lines.
+Integers will be on separate lines.
 
 E.G:
 2
 5
+4
+3

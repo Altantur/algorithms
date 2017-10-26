@@ -1,7 +1,7 @@
-Find sum of given integer of A and B.
+Tell if given integer A dividing by B without remainder.
 
-Integers will be on lines.
+Integers will be on separate lines.
 
 E.G:
-2
 5
+2

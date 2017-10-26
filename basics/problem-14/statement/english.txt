@@ -1,7 +1,6 @@
-Find sum of given integer of A and B.
+Check if given integer A is even or odd.
 
-Integers will be on lines.
+Integer will be on line.
 
 E.G:
 2
-5
