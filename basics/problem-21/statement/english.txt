@@ -1,7 +1,6 @@
-Find sum of given integer of A and B.
+Find given year is leap or not.
 
-Integers will be on lines.
+A year will be given on a line
 
 E.G:
-2
-5
+2017

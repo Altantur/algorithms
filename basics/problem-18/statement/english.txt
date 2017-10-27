@@ -1,7 +1,8 @@
-Find sum of given integer of A and B.
+Find sum of given integers that can be divided by 3 range from M to N.
 
-Integers will be on lines.
+First line M
+Second line N
 
 E.G:
-2
-5
+3
+999

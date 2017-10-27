@@ -1,4 +1,4 @@
-Find sum of given integer of A and B.
+Given integers A, B. Find Greatest common divisor.
 
 Integers will be on lines.
 

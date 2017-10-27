@@ -10,9 +10,12 @@ using namespace std;
 
 int main(){
     ifstream test_file;
+    int gcd = 0, a = 0, b = 0;
 
     // Read from test files
     test_file.open ("../test/test1.txt");
+    test_file >> a;
+    test_file >> b;
     test_file.close();
 
 

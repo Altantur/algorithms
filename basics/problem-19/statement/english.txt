@@ -1,7 +1,8 @@
-Find sum of given integer of A and B.
+Given range of M - N integers count integers that can be divided by 4 but cannot divided by 16.
 
-Integers will be on lines.
+First line M
+Second line N
 
 E.G:
-2
-5
+1
+100
