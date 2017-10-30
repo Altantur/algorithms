@@ -32,4 +32,7 @@ Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 ```
 <br>
-Basically ```g++ problem.cpp && ./a.out ``` is good to go.
+Basically below is good to go.
+```sh
+g++ problem.cpp && ./a.out 
+``` 
