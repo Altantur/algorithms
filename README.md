@@ -2,7 +2,7 @@
 <p align="center"><img width=60% src="https://github.com/anfederico/Clairvoyant/blob/master/media/Clairvoyant.png"></p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![Commit activity](https://img.shields.io/github/commit-activity/altantur/algorithms.svg)](https://github.com/altantur/algorithms/commits)
+[![GitHub last commit](https://img.shields.io/github/last-commit/altantur/algorithms.svg)]()
 [![Build Status](https://travis-ci.org/anfederico/Clairvoyant.svg?branch=master)](https://travis-ci.org/anfederico/Clairvoyant)
 ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
 [![GitHub Issues](https://img.shields.io/github/issues/altantur/algorithms.svg)](https://github.com/altantur/algorithms/issues)
