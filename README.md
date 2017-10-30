@@ -1,2 +1,7 @@
 # algorithms
-Backing up algorithms into structured one.
+Basic need of algorithms.
+
+## Setup with Visual Studio Code
+
+* Setup 
+* Syntax
