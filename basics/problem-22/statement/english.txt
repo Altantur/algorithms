@@ -3,5 +3,5 @@ Given integers A, B. Find Greatest common divisor.
 Integers will be on lines.
 
 E.G:
-2
-5
+54
+24
