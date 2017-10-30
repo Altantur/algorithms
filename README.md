@@ -18,7 +18,7 @@ Learning algorithms from basic to advanced with test and statement. Mainly focus
 We mainly used VS Code for compile and build CPP code. Because it is OS type free of codes and stable to write.
 <br>
 
-Check out following [post](https://github.com/anfederico/Clairvoyant/blob/master/CONTRIBUTING.md) to install.
+Check out following [post](https://code.visualstudio.com/docs/languages/cpp) to install.
 <br>
 
 ## Testing 
@@ -32,7 +32,8 @@ Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 ```
 <br>
+
 Basically below is good to go.
-```sh
+```
 g++ problem.cpp && ./a.out 
 ``` 
