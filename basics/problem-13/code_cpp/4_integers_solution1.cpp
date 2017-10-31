@@ -28,6 +28,7 @@ int main(){
     } else if(product == 0){
         product = a;
     } else product += a;
+
     if(b > 0){
         sum += b;
     } else if(b == 0){
@@ -35,6 +36,7 @@ int main(){
     } else if(product == 0){
         product = b;
     } else product += b;
+
     if(c > 0){
         sum += c;
     } else if(c == 0){
@@ -42,6 +44,7 @@ int main(){
     } else if(product == 0){
         product = c;
     } else product += c;
+
     if(d > 0){
         sum += d;
     } else if(d == 0){

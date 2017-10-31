@@ -1,0 +1,1 @@
+Find sum of given integer of A and B.

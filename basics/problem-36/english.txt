@@ -1,0 +1,7 @@
+Find sum of given integer of A and B.
+
+Integers will be on lines.
+
+E.G:
+2
+5

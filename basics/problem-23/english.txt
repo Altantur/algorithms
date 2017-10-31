@@ -1,0 +1,12 @@
+Given size of N, Array A[N]. Read from file and user input and print it.
+
+First line will be number of elements N 
+Next lines will be value of elements.
+
+E.G:
+5
+1 
+2 
+3 
+4 
+5

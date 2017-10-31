@@ -22,6 +22,8 @@ int main(){
     // Using Euclidean method
     do {
         mod = a % b;
+        gcd = mod;
+        mod = b % mod;
     } while(mod != 0);
     
 
