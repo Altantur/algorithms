@@ -6,12 +6,11 @@
 */
 #include <iostream>
 #include <fstream>
-#include <cmath>
 using namespace std;
 
 int main(){
     ifstream test_file;
-    long gcd = 1, a = 0, b = 0, lcm, ans;
+    int gcd = 1, a = 0, b = 0;
     int mod = 0;
 
     // Read from test files
@@ -20,28 +19,10 @@ int main(){
     test_file >> b;
     test_file.close();
 
-    // To use for LCM later 
-    ans = a * b;
-
-    // Eliminate non-negative to positive number
-    a = abs(a); 
-    b = abs(b); 
-
-    // Using Euclidean method
-    do {
-        if(a < b){
-            b = b % a;
-        }else {
-            a = a % b;
-        }
-    } while(a != 0 && b != 0);
-    gcd = a + b;
-
-    // Least common multiple
-    lcm = ans / gcd;
+    // Using Binary method
+    
 
     cout << "Greatest common divider is : " << gcd << endl;
-    cout << "Least common multiple is : " << lcm << endl;
 
     return 0;
 }
