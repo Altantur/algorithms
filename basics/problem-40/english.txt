@@ -1,7 +1,7 @@
-Find sum of given integer of A and B.
+Given N and K integers, from 1-N numbers count the sum of numbers digits can divided by K. 
 
-Integers will be on lines.
+N and K will on separate lines
 
 E.G:
-2
+200
 5

@@ -1,7 +1,12 @@
-Find sum of given integer of A and B.
+Given A[N] array, find out if it increasing order sorted by changing one element value. If it is possible print `Yes`, otherwise print `No`.
 
-Integers will be on lines.
+N will be first line
+Following lines will be values of elements.
 
 E.G:
+5
+1
 2
+3
+4
 5

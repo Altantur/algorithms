@@ -1,7 +1,8 @@
-Find sum of given integer of A and B.
+Given 2 chess coordination. If 2 fields are same color print `Yes`, otherwise print `No`.
 
-Integers will be on lines.
+First line is first fields coordination
+Following line is second fields coordination.
 
 E.G:
-2
-5
+B3
+A6

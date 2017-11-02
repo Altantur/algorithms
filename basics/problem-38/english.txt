@@ -1,7 +1,6 @@
-Find sum of given integer of A and B.
+Find out if given A integer is power of 2. If yes print `Yes`, otherwise print `No`.
 
-Integers will be on lines.
+A integer will be given on first line.
 
 E.G:
-2
-5
+8

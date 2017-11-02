@@ -1,7 +1,6 @@
-Find sum of given integer of A and B.
+Reverse the digits order of given A integer.
 
-Integers will be on lines.
+A will on line.
 
 E.G:
-2
-5
+21232

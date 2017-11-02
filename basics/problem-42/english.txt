@@ -1,7 +1,6 @@
-Find sum of given integer of A and B.
+Given N integer, from 1 to N find integer that has maximum sum of its divisors. If there is several occasion print greater integer. 
 
-Integers will be on lines.
+N will be given on line.
 
 E.G:
-2
-5
+8

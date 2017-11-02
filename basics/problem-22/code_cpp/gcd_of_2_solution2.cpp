@@ -19,13 +19,19 @@ int main(){
     test_file >> b;
     test_file.close();
 
+    // if (a < 0 && b < 0){
+    //     TODO: some conversion needed
+    // }
+
     // Using Euclidean method
     do {
-        mod = a % b;
-        gcd = mod;
-        mod = b % mod;
-    } while(mod != 0);
-    
+        if(a < b){
+            b = b % a;
+        }else {
+            a = a % b;
+        }
+    } while(a != 0 && b != 0);
+    gcd = a + b;
 
     cout << "Greatest common divider is : " << gcd << endl;
 

@@ -1,7 +1,13 @@
-Find sum of given integer of A and B.
+Given array A[N], read increasing order of sequence till same value neighbors occur. Print how many numbers are your program read. 
 
-Integers will be on lines.
+N will be first line
+Following lines will be values of elements.
 
 E.G:
+6
+1
 2
+3
+4
+5
 5

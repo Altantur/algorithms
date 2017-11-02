@@ -1,7 +1,11 @@
-Find sum of given integer of A and B.
+Given A[N] integer array, find index of 2 elements that difference is maximum. 
 
-Integers will be on lines.
+N will be first line
+Following lines will be values of elements.
 
 E.G:
-2
+4
 5
+0
+2
+3

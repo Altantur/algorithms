@@ -1,7 +1,16 @@
-Find sum of given integer of A and B.
+Given A[N] array find maximum number. You should not change the array itself.
 
-Integers will be on lines.
+N will be first line
+Following lines will be values of elements.
 
 E.G:
+9
+1
 2
+3
+4
+75
 5
+5
+6
+7

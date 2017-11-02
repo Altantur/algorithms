@@ -1,7 +1,6 @@
-Find sum of given integer of A and B.
+Given A integer, find a sum of its digits.
 
-Integers will be on lines.
+A integer will be on line.
 
 E.G:
-2
-5
+213

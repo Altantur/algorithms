@@ -1,7 +1,15 @@
-Find sum of given integer of A and B.
+N day of bitcoin price has given. An i-th day and i + 1, i + 2 ... i + k bitcoin price was same. Find out longest streak days and how much price was.
 
-Integers will be on lines.
+N will be first line
+Following lines will be values of elements.
 
 E.G:
+8
+1
+1
+1
 2
-5
+2
+2
+2
+4
