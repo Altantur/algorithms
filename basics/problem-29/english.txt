@@ -1,9 +1,10 @@
-Given array A[N], divide by 2 to even index elements, divide by 7 to odd index elements and swap the quotients. If given N is odd divide the last elment by 2 and store the quotient in divident.  
+Given array A[N], divide by 2 to even index elements, divide by 7 to odd index elements and swap the quotients. If given N is odd divide the last elment by 2 and store the quotient in divident.
 
 N will be first line
 Following lines will be values of elements.
 
 E.G:
+5
 1
 3
 2
