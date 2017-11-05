@@ -37,7 +37,7 @@ int main(){
 
     // Print and Check!
     for (int i = 0; i < n; i++){
-      cout << a[i];
+      cout << a[i] << endl;
     }
 
     return 0;
