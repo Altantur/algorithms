@@ -1,7 +1,7 @@
 /**
-    @file    sum_of_2_solution1.cpp
+    @file    mth_max_arr_solution1.cpp
     @author  Altantur Bayarsaikhan (altantur)
-    @purpose Find sum of 2 integers
+    @purpose Find M-th max of given array, return index
     @version 1.0 25/10/17 
 */
 #include <iostream>
@@ -13,24 +13,25 @@ int main(){
 
     ifstream test_file;
     // Read from test files
-    test_file.open ("../test/test1.txt");
-    test_file >> m;
-    test_file >> n;
-    int a[n], b[n];
-    for(int i = 0; i < n; i++){
-        test_file >> a[i];
-        b[i] = a[i];
-    }
-    test_file.close();
+    // test_file.open ("../test/test1.txt");
+    // test_file >> m;
+    // test_file >> n;
+    // int a[n], b[n];
+    // for(int i = 0; i < n; i++){
+    //     test_file >> a[i];
+    //     b[i] = a[i];
+    // }
+    // test_file.close();
 
 
     // Getting user input from stdin
-    // cin >> m;
-    // cin >> n;
-    // int a[n], b[n];
-    // for(int i = 0; i < n; i++){
-    //     cin >> a[i];
-    // }
+    cin >> m;
+    cin >> n;
+    int a[n], b[n];
+    for(int i = 0; i < n; i++){
+        cin >> a[i];
+        b[i] = a[i];
+    }
 
     // Using bubble sort till needed part
     for(int i = 0; i < m; i++){
