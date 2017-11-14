@@ -10,7 +10,8 @@ using namespace std;
 
 int main(){
     ifstream test_file;
-    int a, sum = 0;
+    int a;
+    long reversed = 0;
 
     // Read from test files
     // test_file.open ("../test/test1.txt");
@@ -19,12 +20,12 @@ int main(){
     // Get user input
     cin >> a;
     while(a > 0){
-      sum *= 10;
-      sum += a % 10;
+      reversed *= 10;
+      reversed += a % 10;
       a /= 10;
     }
 
-    cout << "Reversed : " << sum << endl;
+    cout << "Reversed : " << reversed << endl;
 
     return 0;
 }
