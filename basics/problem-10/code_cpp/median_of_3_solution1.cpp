@@ -21,7 +21,23 @@ int main(){
     test_file.close();
 
     // Find comparing two
-   
+    if (a > b){
+        if (b > c){
+            median = b;
+        } else if (c > a){
+            median = a;
+        } else{
+            median = c;
+        }
+    } else{
+        if (b < c){
+            median = b;
+        } else if (c < a){
+            median = a;
+        } else{
+            median = c;
+        }
+    }    
     cout << "Median number is : " << median << endl;
 
     return 0;
