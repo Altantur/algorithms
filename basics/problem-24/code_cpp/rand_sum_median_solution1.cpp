@@ -35,14 +35,14 @@ int main(){
         // a[i] = rand() % 1000;
         test_file >> a[i];
         sum += a[i];
-        cout << a[i] << ", ";
+        cout << a[i] << " ";
     }
     test_file.close();
     
     sort(a);
     cout << endl << "Sorted numbers of ";
     for(int i = 0; i < 10; i++){
-        cout << a[i] << ", ";
+        cout << a[i] << " ";
     }
     cout << endl << "Sum : " << sum << endl;
     cout << "The median numbers are : " << a[4] << ", " << a[5] << endl;
