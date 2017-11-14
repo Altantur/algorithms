@@ -22,7 +22,7 @@ int main(){
 
     // Loop through all integers till given square root A
     st = sqrt(a);
-    for(int i = 2; i < st && ind < 1; i++){
+    for(int i = 2; i <= st && ind < 1; i++){
         if(a % i == 0) 
         ind ++;
     }
