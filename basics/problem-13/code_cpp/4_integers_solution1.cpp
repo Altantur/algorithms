@@ -11,7 +11,7 @@ using namespace std;
 int main(){
     ifstream test_file;
     int a = 0, b = 0, c = 0, d = 0;
-    int sum = 0, count = 0, product = 0;
+    int sum = 0, count = 0, product = 1;
 
     // Read from test files
     test_file.open ("../test/test1.txt");
@@ -23,35 +23,31 @@ int main(){
 
     if(a > 0){
         sum += a;
-    } else if(a == 0){
+    } else if(a < 0){
+        product *= a;
+    } else 
         count ++;
-    } else if(product == 0){
-        product = a;
-    } else product += a;
 
     if(b > 0){
         sum += b;
-    } else if(b == 0){
+    } else if(b < 0){
+        product *= b;
+    } else 
         count ++;
-    } else if(product == 0){
-        product = b;
-    } else product += b;
 
     if(c > 0){
         sum += c;
-    } else if(c == 0){
+    } else if(c < 0){
+        product *= c;
+    } else 
         count ++;
-    } else if(product == 0){
-        product = c;
-    } else product += c;
 
     if(d > 0){
         sum += d;
-    } else if(d == 0){
+    } else if(d < 0){
+        product *= d;
+    } else 
         count ++;
-    } else if(product == 0){
-        product = d;
-    } else product *= d;
 
     cout << "Sum of numbers that more than 0 : " << sum << endl;
     cout << "Count of numbers that equal to 0 : " << count << endl;
