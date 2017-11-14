@@ -23,6 +23,7 @@ int main(){
 
     // Finding max integer without using comparation operator
     max = a + b;
+    // We can also use cmath lib - abs(a - b)
     temp = (a - b);
     temp *= temp;
     temp = sqrt(temp);
