@@ -11,7 +11,7 @@ using namespace std;
 
 int main(){
     ifstream test_file;
-    int n = 0, m = 0, sum = 0;
+    int n = 0, m = 0, sum;
 
     // Read from test files
     test_file.open ("../test/test1.txt");
@@ -19,10 +19,10 @@ int main(){
     test_file >> n;
     test_file.close();
 
-    // Iterating through the integers
-    for(int i = m; i <= n; i++){
-        sum += i;
-    }
+    // Using Arithmetic sequence to find sum
+    sum = m + n;
+    sum *= n - m + 1;
+    sum /= 2;
 
     cout << "Sum of " << m << ".." << n << " : " << sum << endl;
 
