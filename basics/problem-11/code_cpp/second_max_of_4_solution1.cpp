@@ -22,37 +22,33 @@ int main(){
     test_file.close();
 
     // Calc
-    if(a < b){
+    if(a > b){
         temp = a;
         a = b;
         b = temp;
     }
-    if(b < c){
+    if(b > c){
         temp = b;
         b = c;
         c = temp;
     }
-    if(c < d){
+    if(c > d){
         temp = c;
         c = d;
         d = temp;
     }
-    if(a < b){
+    if(a > b){
         temp = a;
         a = b;
         b = temp;
     }
-    if(b < c){
+    if(b > c){
         temp = b;
         b = c;
         c = temp;
     }
-    if(a < b){
-        temp = a;
-        a = b;
-        b = temp;
-    }
-    cout << "Second max number is : " << b << endl; 
+    
+    cout << "Second max number is : " << c << endl; 
     return 0;
 }
 
