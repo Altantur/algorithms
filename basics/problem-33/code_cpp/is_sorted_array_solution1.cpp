@@ -4,41 +4,29 @@
     @purpose Find out given array sorted or not
     @version 1.0 06/11/17 
 */
-#include <iostream>
+#include <vector>
 #include <fstream>
+#include <iostream>
+
 using namespace std;
 
+bool is_sorted(vector<int>& a) {
+    for (size_t i = 1; i < a.size(); i++)
+        if ( a[i - 1] > a[i] )
+            return false;
+    return true;
+}
+
 int main(){
-    // ifstream test_file;
-    int n, prev, i;
-    bool sorted = true;
-
-    // Read from test files
-    // test_file.open ("../test/test1.txt");
-    // test_file.close();
-
-    // Getting user input
+    int n;
     cin >> n;
-    int a[n];
 
-    for (int i = 0; i < n; i++){
+    vector<int> a(n);
+    for (int i = 0; i < n; i++)
         cin >> a[i];
-    }
 
-    if (n > 0){
-        prev = a[0];
-        for (int i = 1; i < n; i++){
-            if (prev > a[i]) 
-                sorted = false;
-            prev = a[i];
-        }
-    }
 
-    if (sorted) 
-        cout << "Yes" << endl;
-    else
-        cout << "No" << endl;
-
+    cout << (is_sorted(a) ? "Yes" : "No") << endl;
     return 0;
 }
 
