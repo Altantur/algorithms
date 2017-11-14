@@ -23,27 +23,22 @@ int main(){
       cin >> a[i];
     }
 
-    if (n > 0) {
-      int prev = a[0], count = 1, price = a[0];
-      for (int i = 1; i < n; i++) {
-        // Counting and resetting counter; At least one should be counted
-        if (prev == a[i]){
-          count ++;
-        }
-        else {
-          count = 1;
-        }
-
-        // Setting longest one
-        if (lcom < count){
-          lcom = count;
-        }
-
-        // For comparetion of next iteration
-        prev = a[i];
+    int count = 0, prev;
+    prev = a[0] ^ 1;
+    for (int i = 0; i < n; i++) {
+      // Counting and resetting counter; At least one should be counted
+      if (a[i] == prev){
+        count ++;
+      } else{
+        count = 1;
       }
-    }
 
+      // Setting longest one
+      if (lcom < count){
+        lcom = count;
+      }
+      prev = a[i];
+    }
 
     cout << "Longest streak is : " << lcom << endl;
 
