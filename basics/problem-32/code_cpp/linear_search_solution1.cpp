@@ -10,7 +10,7 @@ using namespace std;
 
 int main(){
     // ifstream test_file;
-    int n, k, i;
+    int n, k, ind = 0;
 
     // Read from test files
     // test_file.open ("../test/test1.txt");
@@ -20,23 +20,27 @@ int main(){
     cin >> k;
     cin >> n;
     int a[n];
-    for(i = 0; i < n; i++){
+    for(int i = 0; i < n; i++){
         cin >> a[i];
     }
 
     // Break from first occurance
-    for(i = 0; i < n; i++){
-        if(a[i] == k) break; 
+    for(int i = 0; i < n; i++){
+        if(a[i] == k){
+            ind = i;
+            break;
+        }
     }
 
     // Assure if it is real one or invalid value
     if(n > 0){
-       if(a[i] == k){
-          cout << "Index is : " << i << endl; 
-       } 
-       else{
+       if(a[ind] == k){
+          cout << "Index is : " << ind << endl; 
+       } else{
           cout << "No" << endl;
        }
+    } else {
+        cout << "No" << endl;
     }
 
     return 0;
