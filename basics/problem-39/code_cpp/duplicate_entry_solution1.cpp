@@ -2,7 +2,7 @@
     @file    duplicate_entry_solution1.cpp
     @author  Altantur Bayarsaikhan (altantur)
     @purpose Find sum of 2 integers
-    @version 1.0 25/10/17 
+    @version 1.0 25/10/17
 */
 #include <iostream>
 #include <fstream>
@@ -14,15 +14,12 @@ int main(){
     // test_file.open ("../test/test1.txt");
     // test_file.close();
     int count = 0, prev, current;
-    bool is_first = true;
 
+    cin >> current;
+    count ++;
     do{
         prev = current;
         cin >> current;
-        if (is_first){
-            prev -= 1;
-            is_first = false;
-        }
         count ++;
     } while(prev != current);
 
@@ -30,4 +27,3 @@ int main(){
 
     return 0;
 }
-
