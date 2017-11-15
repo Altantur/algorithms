@@ -25,13 +25,12 @@ int main(){
         cin >> a[i];
     }
 
-    if (n > 0){
-        prev = a[0];
-        for (int i = 1; i < n; i++){
-            if (prev > a[i]) 
-                sorted = false;
-            prev = a[i];
+    prev = a[0];
+    for (int i = 1; i < n && sorted; i++){
+        if (prev > a[i]) {
+            sorted = false;
         }
+        prev = a[i];
     }
 
     if (sorted) 
