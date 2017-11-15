@@ -2,7 +2,7 @@
     @file    uniq_digits_solution1.cpp
     @author  Altantur Bayarsaikhan (altantur)
     @purpose Find sum of 2 integers
-    @version 1.0 10/11/17 
+    @version 1.1 15/11/17
 */
 #include <iostream>
 #include <fstream>
@@ -13,19 +13,19 @@ int main(){
     // ifstream test_file;
     // test_file.open ("../test/test1.txt");
     // test_file.close();
-    int tp, tp1, tp2;
-    for (int i = 100; i < 1000; i ++){
-        tp = i % 10;
-        tp1 = (i - tp) % 100;
-        tp1 /= 10;
-        tp2 = i / 100;
-        if (tp != tp1 &&
-            tp1 != tp2 && 
-            tp2 != tp){
-                cout << i << ", ";
-            }
+    int digits[3];
+    for (digits[0] = 1; digits[0] < 10; digits[0]++) {
+      for (digits[1] = 0; digits[1] < 10; digits[1]++) {
+        for (digits[2] = 0; digits[2] < 10; digits[2]++) {
+          if(digits[0] != digits[1] &&
+             digits[1] != digits[2] &&
+             digits[2] != digits[0]){
+               cout << digits[0] << digits[1] << digits[2] << " ";
+           }
+        }
+      }
     }
+
 
     return 0;
 }
-
