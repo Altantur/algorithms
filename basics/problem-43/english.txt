@@ -1,7 +1,9 @@
-Find sum of given integer of A and B.
+Implement sqrt(int X). Compute and return the square root of X.
 
-Integers will be on lines.
+X is guaranteed to be a non-negative integer.
+
+
+X will on single line.
 
 E.G:
-2
-5
+16
