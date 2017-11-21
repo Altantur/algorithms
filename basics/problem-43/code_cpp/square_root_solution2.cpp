@@ -9,17 +9,11 @@
 using namespace std;
 
 int main(){
+    // Read from test files
+    // ifstream test_file;
+    // test_file.open ("../test/test1.txt");
+    // test_file.close();
 
-    // Getting user input and init vars
-    int a, i = 0;
-    cin >> a;
-
-    while(i * i <= a){
-      i++;
-    }
-    i--;
-
-    cout << i << endl;
 
     return 0;
 }
