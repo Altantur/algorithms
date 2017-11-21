@@ -1,4 +1,5 @@
 <p align="center"><img width=25% src="https://github.com/altantur/algorithms/blob/master/media/alogo.png"></p>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![GitHub last commit](https://img.shields.io/github/last-commit/altantur/algorithms.svg)]()
 [![Build Status](https://travis-ci.org/Altantur/algorithms.svg?branch=master)](https://travis-ci.org/altantur/algorithms)
