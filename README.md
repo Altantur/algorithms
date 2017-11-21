@@ -1,6 +1,4 @@
-<p align="center"><img width=12.5% src="https://github.com/altantur/algorithms/blob/master/media/alogo.png"></p>
-<p align="center"><img width=60% src="https://github.com/anfederico/Clairvoyant/blob/master/media/Clairvoyant.png"></p>
-
+<p align="center"><img width=25% src="https://github.com/altantur/algorithms/blob/master/media/alogo.png"></p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![GitHub last commit](https://img.shields.io/github/last-commit/altantur/algorithms.svg)]()
 [![Build Status](https://travis-ci.org/Altantur/algorithms.svg?branch=master)](https://travis-ci.org/altantur/algorithms)
@@ -11,7 +9,7 @@
 
 ## Basic Overview
 
-Learning algorithms from basic to advanced with test and statement. Mainly focused on writing with C++. 
+Learning algorithms from basic to advanced with test and statement. Mainly focused on writing with C++.
 <br>
 
 ## Setup Visual Studio Code
@@ -21,8 +19,8 @@ We mainly used VS Code for compile and build CPP code. Because it is OS type fre
 Check out following [post](https://code.visualstudio.com/docs/languages/cpp) to install.
 <br>
 
-## Testing 
-During the testing problems we used g++ with following version 
+## Testing
+During the testing problems we used g++ with following version
 
 ```
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
@@ -35,5 +33,5 @@ InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 Basically below is good to go.
 ```
-g++ problem.cpp && ./a.out 
-``` 
+g++ problem.cpp && ./a.out
+```
