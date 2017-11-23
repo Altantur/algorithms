@@ -9,7 +9,7 @@
 using namespace std;
 
 bool is_pow_two(int a){
-  // If given a is power of 2 should (a & (a - 1)) = 0 
+  // If given a is power of 2 should (a & (a - 1)) = 0
   // If given a is zero we will return false
   return (a && !(a & (a - 1)));
 }
