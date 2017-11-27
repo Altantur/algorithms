@@ -8,7 +8,6 @@ int search(vector<int> &a, int x) {
   int m; // Index of middle element
   size_t n = a.size(); // Length of vector
   int l = 0, r = n - 1;
-  cout << endl << n << endl;
 
   while (l <= r) {
     m = l + (r - l) / 2;
