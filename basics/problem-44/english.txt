@@ -1,7 +1,10 @@
-Find sum of given integer of A and B.
+Given array of sorted elements find nearest value of A.
 
-Integers will be on lines.
+First line takes A integer
+Second line takes size of array
+Rest will take elements of array
 
 E.G:
-2
+11
 5
+1 2 3 4 5
