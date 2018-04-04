@@ -30,6 +30,17 @@ int* selection_sort(int* nums, int n) {
 }
 
 int* insertion_sort(int* nums, int n) {
+  int tmp;
+  int j;
+  for (size_t i = 1; i < n; i++) {
+    tmp = nums[i];
+    j = i - 1;
+    while (j >= 0 && nums[j] > tmp) {
+      nums[j + 1] = nums[j];
+      j--;
+    }
+    nums[j + 1] = tmp;
+  }
   return nums;
 }
 
@@ -84,7 +95,8 @@ int main () {
 
   // bubble_sort(a, n);
   // selection_sort(a, n);
-  counting_sort(a, n);
+  // counting_sort(a, n);
+  insertion_sort(a, n);
 
   for (int i = 0; i < n; i ++)
     cout << a[i] << " ";
